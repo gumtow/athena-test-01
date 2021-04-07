@@ -1,5 +1,9 @@
 .App {
   text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 5rem;
 }
 
 .App-logo {
@@ -35,4 +39,29 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+table {
+  border: 1px solid #1F405F;
+  border-radius: 10px;
+  background-clip: padding-box;
+  border-spacing: 0px;
+  overflow:hidden;
+
+}
+
+td {
+  padding:10px;
+}
+
+thead {
+  background-clip: padding-box;
+  border-radius: 10px 10px 0 0;
+  background: #1F405F;
+  color: #fff;
+}
+
+
+tbody tr:nth-child(even) {
+  background-color: #c2e1f3;
 }
